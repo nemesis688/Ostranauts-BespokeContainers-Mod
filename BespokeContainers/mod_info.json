@@ -2,7 +2,7 @@
   {
     "strName": "Bespoke Containers",
     "strAuthor": "Fohcs",
-    "strModURL": "https://github.com/nemesis688/Ostranauts-VerisimiliTooled-Mod/tree/main",
+    "strModURL": "https://github.com/nemesis688/Ostranauts-BespokeContainers-Mod",
     "strGameVersion": "1.0.0.9",
     "strModVersion": "0.1",
 	"requiredAPIs": ["FFU_BR_Core>=0.6"],
