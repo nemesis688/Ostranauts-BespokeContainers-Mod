@@ -1,0 +1,52 @@
+[
+  {
+    "strName": "ACTHopeChest1x201CRDamage",
+    "aCOs": [
+      "MSHopeChest1x201CRDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTHopeChest1x201CRLooseDamage",
+    "aCOs": [
+      "MSHopeChest1x201CRLooseDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  
+  {
+    "strName": "ACTCoatRack1x201CRDamage",
+    "aCOs": [
+      "MSCoatRack1x201CRDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTCoatRack1x201CRLooseDamage",
+    "aCOs": [
+      "MSCoatRack1x201CRLooseDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  
+  {
+    "strName": "ACTShoeRack1x101CRDamage",
+    "aCOs": [
+      "MSShoeRack1x101CRDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTShoeRack1x101CRLooseDamage",
+    "aCOs": [
+      "MSShoeRack1x101CRLooseDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  }
+]

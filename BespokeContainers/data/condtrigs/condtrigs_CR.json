@@ -1,0 +1,240 @@
+[
+  {
+    "strName": "TIsHopeChest1x201CRUninstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageHopeChestCR"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsHopeChest1x201CRUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageHopeChestCR",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsHopeChest1x201CRInstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageHopeChestCR",
+      "IsInstalled"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsHopeChest1x201CRInstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageHopeChestCR",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  
+  {
+    "strName": "TIsCoatRack1x201CRUninstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageCoatRackCR"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsCoatRack1x201CRUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageCoatRackCR",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsCoatRack1x201CRInstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageCoatRackCR",
+      "IsInstalled"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsCoatRack1x201CRInstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageCoatRackCR",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  
+  {
+    "strName": "TIsShoeRack1x101CRUninstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageShoeRackCR"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsShoeRack1x101CRUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageShoeRackCR",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsShoeRack1x101CRInstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageShoeRackCR",
+      "IsInstalled"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsShoeRack1x101CRInstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsStorageShoeRackCR",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  
+  {
+    "strName": "TIsFitHopeChest",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsCategoryTextiles"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsJumpsuit",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsCategoryTextiles",
+	  "IsJumpsuit"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsCoat",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsCategoryTextiles",
+	  "IsCurio"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitCoatRack",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+    ],
+    "aForbids": [],
+    "aTriggers": [
+        "TIsJumpsuit",
+        "TIsCoat"
+    ],
+    "bAND": false
+  },
+  {
+    "strName": "TIsFitShoeRack",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsShoe"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  }
+]

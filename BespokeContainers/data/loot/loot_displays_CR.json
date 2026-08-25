@@ -1,0 +1,188 @@
+[
+  {
+    "strName" : "ItmWRack1x401DisplaysCR",
+    "aCOs"    : [
+      "DispABatCR=1x1",
+	  "DispSBatCR=1x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmWRack1x402DisplaysCR",
+    "aCOs"    : [
+      "DispMachCR=1x1",
+	  "DispCutlCR=1x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmWRack1x403DisplaysCR",
+    "aCOs"    : [
+      "DispKataCR=1x1",
+	  "DispSpeaCR=1x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmWRack1x301DisplaysCR",
+    "aCOs"    : [
+      "DispKnucCR=1x1",
+	  "DispBClubCR=1x1",
+	  "DispNStickCR=1x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName" : "ItmWRack1x201DisplaysCR",
+    "aCOs"    : [
+      "DispTKnifeCR=1x1",
+	  "DispPKnifeCR=1x1",
+	  "DispShivCR=1x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  
+  {
+    "strName": "ItmWRack1x401DisplaysCRComponents",
+    "aCOs": [
+      "ItmScrapAluminum=0.5x1-2",
+      "ItmPartsMechSmall01=1.0x1-2",
+      "ItmScrapPlastic=1.0x1-4"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName" : "ItmWRack1x401CRDismantle",
+    "aCOs"    : [
+      "ItmPartsMechSmall01=1.0x5",
+      "ItmScrapAluminum=1.0x4",
+	  "ItmScrapPlastic=1.0x3",
+      "ItmScrapTrash=1.0x1"
+    ],
+    "aLoots"  : [
+    ],
+    "strType" : "item"
+  },
+  {
+    "strName": "ItmWRack1x401CRDestroy",
+    "aCOs": [
+      "ItmScrapAluminum=1.0x1-4",
+	  "ItmScrapPlastic=0.5x1-2",
+      "ItmScrapTrash=1.0x2-5"
+     ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  
+  {
+    "strName": "ItmRack1x401CRDamage",
+    "aCOs": [
+      "ItmWRack1x401CRDmg=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmWRack1x401CRLooseDamage",
+    "aCOs": [
+      "ItmWRack1x401CRLoose=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRack1x402CRDamage",
+    "aCOs": [
+      "ItmWRack1x402CRDmg=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmWRack1x402CRLooseDamage",
+    "aCOs": [
+      "ItmWRack1x402CRLoose=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRack1x403CRDamage",
+    "aCOs": [
+      "ItmWRack1x403CRDmg=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmWRack1x403CRLooseDamage",
+    "aCOs": [
+      "ItmWRack1x403CRLoose=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRack1x301CRDamage",
+    "aCOs": [
+      "ItmWRack1x301CRDmg=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmWRack1x301CRLooseDamage",
+    "aCOs": [
+      "ItmWRack1x301CRLoose=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmRack1x201CRDamage",
+    "aCOs": [
+      "ItmWRack1x201CRDmg=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmWRack1x201CRLooseDamage",
+    "aCOs": [
+      "ItmWRack1x201CRLoose=1.0x1"
+     ],
+    "aLoots": [
+      "ItmWRack1x401DisplaysCRComponents=1.0x1"
+     ],
+    "strType": "item"
+  }
+]

@@ -1,0 +1,64 @@
+[
+      {
+        "strName" : "MSHopeChest1x201CRDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmHopeChest1x201CRDamage"
+      },
+      {
+        "strName" : "MSHopeChest1x201CRLooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmHopeChest1x201CRLooseDamage"
+      },
+	  
+	  {
+        "strName" : "MSCoatRack1x201CRDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmCoatRack1x201CRDamage"
+      },
+      {
+        "strName" : "MSCoatRack1x201CRLooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmCoatRack1x201CRLooseDamage"
+      },
+	  
+	  {
+        "strName" : "MSShoeRack1x101CRDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmShoeRack1x101CRDamage"
+      },
+      {
+        "strName" : "MSShoeRack1x101CRLooseDamage",
+        "strTitle" : "",
+        "strDesc" : "[us] [is] damaged.",
+        "fDuration"         : 0.0,
+        "strThemType"       : "Other",
+        "bIgnoreFeelings" : true,
+        "nLogging"         : 1,
+        "objLootModeSwitch"    : "ItmShoeRack1x101CRLooseDamage"
+      }
+]

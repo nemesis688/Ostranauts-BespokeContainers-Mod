@@ -1,0 +1,577 @@
+[
+  {
+    "strName" : "ItmHopeChest1x201CR",
+    "strNameShort" : "Hope Chest",
+    "strItemDef" : "ItmHopeChest1x201CR",
+    "strNameFriendly" : "Hope Chest",
+    "strDesc" : "A wooden chest designed to store clothes and linen. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nEven when empty hope remains.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+	  "IsLuBanCR=1.0x1.0",
+	  "IsStorageHopeChestCR=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x15000.00",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatMass=1.0x24.0",
+      "StatDamageMax=1.0x10",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1",
+	  "IsCategoryLuxuryGoods=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitHopeChest",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 6,
+    "nContainerWidth"  : 6,
+    "mapPoints"      : [
+      "use,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTHopeChest1x201CRDamage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "containers/chest/ItmHopeChest1x201CR"
+  },
+  {
+    "strName" : "ItmHopeChest1x201CRLoose",
+    "strNameShort" : "Hope Chest",
+    "strItemDef" : "ItmHopeChest1x201CRLoose",
+    "strNameFriendly" : "Hope Chest (Loose)",
+    "strDesc" : "A wooden chest designed to store clothes and linen. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nEven when empty hope remains.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsLuBanCR=1.0x1.0",
+	  "IsStorageHopeChestCR=1.0x1",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsContainer=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "StatBasePrice=1.0x15000.00",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatMass=1.0x24.0",
+      "StatDamageMax=1.0x10",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitHopeChest",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 6,
+    "nContainerWidth"  : 6,
+    "mapPoints"      : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTHopeChest1x201CRLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/chest/ItmHopeChest1x201CRLoose"
+  },
+  {
+    "strName" : "ItmHopeChest1x201CRDmg",
+    "strNameShort" : "Hope Chest",
+    "strItemDef" : "ItmHopeChest1x201CRDmg",
+    "strNameFriendly" : "Hope Chest (Damaged)",
+    "strDesc" : "A wooden chest designed to store clothes and linen. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nEven when empty hope remains.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+      "IsLuBanCR=1.0x1.0",
+	  "IsDamaged=1.0x1",
+	  "IsStorageHopeChestCR=1.0x1",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1600.00",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatRepairProgressMax=1.0x600",
+      "StatMass=1.0x24.0",
+      "StatDamageMax=1.0x20",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitHopeChest",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 6,
+    "nContainerWidth"  : 6,
+    "mapPoints"      : [
+      "use,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "containers/chest/ItmHopeChest1x201CRDmg02",
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmHopeChest1x201CRDmgLoose",
+    "strNameShort" : "Hope Chest",
+    "strItemDef" : "ItmHopeChest1x201CRDmgLoose",
+    "strNameFriendly" : "Hope Chest (Loose, Damaged)",
+    "strDesc" : "A wooden chest designed to store clothes and linen. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nEven when empty hope remains.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsLuBanCR=1.0x1.0",
+	  "IsDamaged=1.0x1",
+	  "IsStorageHopeChestCR=1.0x1",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsContainer=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "StatBasePrice=1.0x1600.00",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatRepairProgressMax=1.0x600",
+      "StatMass=1.0x24.0",
+      "StatDamageMax=1.0x20",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitHopeChest",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 6,
+    "nContainerWidth"  : 6,
+    "mapPoints"      : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/chest/ItmHopeChest1x201CRDmg02Loose"
+  },
+  
+  {
+    "strName" : "ItmCoatRack1x201CR",
+    "strNameShort" : "Coat Rack",
+    "strItemDef" : "ItmCoatRack1x201CR",
+    "strNameFriendly" : "Coat Rack",
+    "strDesc" : "A wooden rack designed to hold coats and coveralls. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nHanging clothes up in zero-g is rather complicated affair.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+	  "IsLuBanCR=1.0x1.0",
+	  "IsStorageCoatRackCR=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x15000.00",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatMass=1.0x24.0",
+      "StatDamageMax=1.0x10",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1",
+	  "IsCategoryLuxuryGoods=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitCoatRack",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 6,
+    "nContainerWidth"  : 6,
+    "mapPoints"      : [
+      "use,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTCoatRack1x201CRDamage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "containers/coat/ItmCoatRack1x201CR"
+  },
+  {
+    "strName" : "ItmCoatRack1x201CRLoose",
+    "strNameShort" : "Coat Rack",
+    "strItemDef" : "ItmCoatRack1x201CRLoose",
+    "strNameFriendly" : "Coat Rack (Loose)",
+    "strDesc" : "A wooden rack designed to hold coats and coveralls. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nHanging clothes up in zero-g is rather complicated affair.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsLuBanCR=1.0x1.0",
+	  "IsStorageCoatRackCR=1.0x1",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsContainer=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "StatBasePrice=1.0x15000.00",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatMass=1.0x24.0",
+      "StatDamageMax=1.0x10",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitCoatRack",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 6,
+    "nContainerWidth"  : 6,
+    "mapPoints"      : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTCoatRack1x201CRLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/coat/ItmCoatRack1x201CRLoose"
+  },
+  {
+    "strName" : "ItmCoatRack1x201CRDmg",
+    "strNameShort" : "Coat Rack",
+    "strItemDef" : "ItmCoatRack1x201CRDmg",
+    "strNameFriendly" : "Coat Rack (Damaged)",
+    "strDesc" : "A wooden rack designed to hold coats and coveralls. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nHanging clothes up in zero-g is rather complicated affair.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+      "IsLuBanCR=1.0x1.0",
+	  "IsDamaged=1.0x1",
+	  "IsStorageCoatRackCR=1.0x1",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1600.00",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatRepairProgressMax=1.0x600",
+      "StatMass=1.0x24.0",
+      "StatDamageMax=1.0x20",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitCoatRack",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 6,
+    "nContainerWidth"  : 6,
+    "mapPoints"      : [
+      "use,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "containers/coat/ItmCoatRack1x201CRDmg02",
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmCoatRack1x201CRDmgLoose",
+    "strNameShort" : "Coat Rack",
+    "strItemDef" : "ItmCoatRack1x201CRDmgLoose",
+    "strNameFriendly" : "Coat Rack (Loose, Damaged)",
+    "strDesc" : "A wooden rack designed to hold coats and coveralls. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nHanging clothes up in zero-g is rather complicated affair.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsLuBanCR=1.0x1.0",
+	  "IsDamaged=1.0x1",
+	  "IsStorageCoatRackCR=1.0x1",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsContainer=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "StatBasePrice=1.0x1600.00",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatRepairProgressMax=1.0x600",
+      "StatMass=1.0x24.0",
+      "StatDamageMax=1.0x20",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitCoatRack",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 6,
+    "nContainerWidth"  : 6,
+    "mapPoints"      : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/coat/ItmCoatRack1x201CRDmg02Loose"
+  },
+  
+  {
+    "strName" : "ItmShoeRack1x101CR",
+    "strNameShort" : "Shoe Rack",
+    "strItemDef" : "ItmShoeRack1x101CR",
+    "strNameFriendly" : "Shoe Rack",
+    "strDesc" : "A wooden rack designed to hold shoes. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nShoes were made for  walking and sticking to metal plates.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+	  "IsLuBanCR=1.0x1.0",
+	  "IsStorageShoeRackCR=1.0x1",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x7250.00",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatMass=1.0x12.0",
+      "StatDamageMax=1.0x10",
+	  "IsSalvageValueHigh=1.0x1.0",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1",
+	  "IsCategoryLuxuryGoods=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitShoeRack",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 4,
+    "nContainerWidth"  : 4,
+    "mapPoints"      : [
+      "use,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTShoeRack1x101CRDamage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "containers/shoe/ItmShoeRack1x101CR"
+  },
+  {
+    "strName" : "ItmShoeRack1x101CRLoose",
+    "strNameShort" : "Shoe Rack",
+    "strItemDef" : "ItmShoeRack1x101CRLoose",
+    "strNameFriendly" : "Shoe Rack (Loose)",
+    "strDesc" : "A wooden rack designed to hold shoes. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nShoes were made for  walking and sticking to metal plates.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsLuBanCR=1.0x1.0",
+	  "IsStorageShoeRackCR=1.0x1",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsContainer=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "StatBasePrice=1.0x7250.00",
+      "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatMass=1.0x12.0",
+      "StatDamageMax=1.0x10",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitShoeRack",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 4,
+    "nContainerWidth"  : 4,
+    "mapPoints"      : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTShoeRack1x101CRLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/shoe/ItmShoeRack1x101CRLoose"
+  },
+  {
+    "strName" : "ItmShoeRack1x101CRDmg",
+    "strNameShort" : "Shoe Rack",
+    "strItemDef" : "ItmShoeRack1x101CRDmg",
+    "strNameFriendly" : "Shoe Rack (Damaged)",
+    "strDesc" : "A wooden rack designed to hold shoes. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nShoes were made for  walking and sticking to metal plates.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+      "IsLuBanCR=1.0x1.0",
+	  "IsDamaged=1.0x1",
+	  "IsStorageShoeRackCR=1.0x1",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x1000.00",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatRepairProgressMax=1.0x600",
+      "StatMass=1.0x12.0",
+      "StatDamageMax=1.0x20",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitShoeRack",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 4,
+    "nContainerWidth"  : 4,
+    "mapPoints"      : [
+      "use,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "containers/shoe/ItmShoeRack1x101CRDmg02",
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmShoeRack1x101CRDmgLoose",
+    "strNameShort" : "Shoe Rack",
+    "strItemDef" : "ItmShoeRack1x101CRDmgLoose",
+    "strNameFriendly" : "Shoe Rack (Loose, Damaged)",
+    "strDesc" : "A wooden rack designed to hold shoes. Now with space age elastic straps. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.\n\nShoes were made for  walking and sticking to metal plates.",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsLuBanCR=1.0x1.0",
+	  "IsDamaged=1.0x1",
+	  "IsStorageShoeRackCR=1.0x1",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsContainer=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "StatBasePrice=1.0x1000.00",
+      "StatDismantleProgressMax=1.0x40",
+      "StatInstallProgressMax=1.0x200",
+      "StatUninstallProgressMax=1.0x200",
+      "StatRepairProgressMax=1.0x600",
+      "StatMass=1.0x12.0",
+      "StatDamageMax=1.0x20",
+	  "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "strContainerCT"    : "TIsFitShoeRack",
+    "nContainerStackMult": 5,
+    "nContainerHeight"  : 4,
+    "nContainerWidth"  : 4,
+    "mapPoints"      : [
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/shoe/ItmShoeRack1x101CRDmg02Loose"
+  }
+]

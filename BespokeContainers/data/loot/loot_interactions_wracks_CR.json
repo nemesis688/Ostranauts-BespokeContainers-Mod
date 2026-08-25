@@ -1,0 +1,162 @@
+[
+  {
+    "strName": "ACTWRack1x401CRDamage",
+    "aCOs": [
+      "MSWRack1x401CRDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x401CRDestroy",
+    "aCOs": [
+      "MSWRack1x401CRDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x401CRLooseDamage",
+    "aCOs": [
+      "MSWRack1x401CRLooseDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x401CRLooseDestroy",
+    "aCOs": [
+      "MSWRack1x401CRLooseDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x402CRDamage",
+    "aCOs": [
+      "MSWRack1x402CRDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x402CRLooseDamage",
+    "aCOs": [
+      "MSWRack1x402CRLooseDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x402CRDestroy",
+    "aCOs": [
+      "MSWRack1x402CRDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x402CRLooseDestroy",
+    "aCOs": [
+      "MSWRack1x402CRLooseDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x403CRDamage",
+    "aCOs": [
+      "MSWRack1x403CRDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x403CRLooseDamage",
+    "aCOs": [
+      "MSWRack1x403CRLooseDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x403CRDestroy",
+    "aCOs": [
+      "MSWRack1x403CRDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x403CRLooseDestroy",
+    "aCOs": [
+      "MSWRack1x403CRLooseDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x301CRDamage",
+    "aCOs": [
+      "MSWRack1x301CRDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x301CRLooseDamage",
+    "aCOs": [
+      "MSWRack1x301CRLooseDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x301CRDestroy",
+    "aCOs": [
+      "MSWRack1x301CRDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x301CRLooseDestroy",
+    "aCOs": [
+      "MSWRack1x301CRLooseDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x201CRDamage",
+    "aCOs": [
+      "MSWRack1x201CRDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x201CRLooseDamage",
+    "aCOs": [
+      "MSWRack1x201CRLooseDamage=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x201CRDestroy",
+    "aCOs": [
+      "MSWRack1x201CRDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  },
+  {
+    "strName": "ACTWRack1x201CRLooseDestroy",
+    "aCOs": [
+      "MSWRack1x201CRLooseDestroy=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "interaction"
+  }
+]

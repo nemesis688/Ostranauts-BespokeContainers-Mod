@@ -1,0 +1,10 @@
+[
+  {
+    "strName" : "ItmRandomRackLoose",
+    "aCOs"    : [
+    ],
+    "aLoots"  : [ "1|--ADD--|ItmHopeChest1x201CRLoose=0.2x1|ItmCoatRack1x201CRLoose=0.2x1|ItmShoeRack1x101CRLoose=0.2x1|ItmWRack1x401CRLoose=0.2x1|ItmWRack1x402CRLoose=0.2x1|ItmWRack1x403CRLoose=0.2x1|ItmWRack1x301CRLoose=0.2x1|ItmWRack1x201CRLoose=0.2x1"
+    ],
+    "strType" : "item"
+  }
+]

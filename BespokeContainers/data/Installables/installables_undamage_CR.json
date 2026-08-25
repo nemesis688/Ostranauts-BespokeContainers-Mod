@@ -1,0 +1,405 @@
+[
+  {
+    "strName": "HopeChest1x201CRUndamage",
+    "strActionCO": "ItmHopeChest1x201CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmHopeChest1x201CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "HopeChest1x201CRLooseUndamage",
+    "strActionCO": "ItmHopeChest1x201CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmHopeChest1x201CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  
+  {
+    "strName": "CoatRack1x201CRUndamage",
+    "strActionCO": "ItmCoatRack1x201CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmCoatRack1x201CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "CoatRack1x201CRLooseUndamage",
+    "strActionCO": "ItmCoatRack1x201CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmCoatRack1x201CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  
+  {
+    "strName": "ShoeRack1x101CRUndamage",
+    "strActionCO": "ItmShoeRack1x101CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmShoeRack1x101CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "ShoeRack1x101CRLooseUndamage",
+    "strActionCO": "ItmShoeRack1x101CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmShoeRack1x101CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  
+  {
+    "strName": "WRack1x401CRUndamage",
+    "strActionCO": "ItmWRack1x401CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x401CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x401CRLooseUndamage",
+    "strActionCO": "ItmWRack1x401CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x401CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x402CRUndamage",
+    "strActionCO": "ItmWRack1x402CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x402CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x402CRLooseUndamage",
+    "strActionCO": "ItmWRack1x402CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x402CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x403CRUndamage",
+    "strActionCO": "ItmWRack1x403CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x403CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x403CRLooseUndamage",
+    "strActionCO": "ItmWRack1x403CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x403CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x301CRUndamage",
+    "strActionCO": "ItmWRack1x301CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x301CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x301CRLooseUndamage",
+    "strActionCO": "ItmWRack1x301CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x301CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x201CRUndamage",
+    "strActionCO": "ItmWRack1x201CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x201CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x201CRLooseUndamage",
+    "strActionCO": "ItmWRack1x201CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Reduces item's wear and tear to prevent damage.",
+    "strInteractionTemplate": "ACTUndamageTEMP",
+    "CTThem": "TIsUndamageableNotContained",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x201CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUndamageProgress",
+    "strProgressStat": "StatDamage",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  }
+]

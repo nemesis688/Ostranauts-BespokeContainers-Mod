@@ -1,0 +1,854 @@
+[
+  {
+    "strName" : "ItmWRack1x401CR",
+	"strNameShort": "Weapon Rack",
+    "strItemDef" : "ItmWRack1x401CR",
+    "strNameFriendly" : "Weapon Display Rack: Bats",
+    "strDesc" : "A wooden rack designed to hold weapons. Has space to display relics of an old Earth pastime. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.",
+    "strType"    : "Item",
+	"strLoot": "ItmWRack1x401DisplaysCR",
+	"aSlotsWeHave": [
+      "Disp01WRack1x401CR",
+      "Disp02WRack1x401CR"
+      ],
+    "aInteractions" : [
+      "Inventory"
+    ],
+    "aStartingConds" : [
+	  "IsLuBanCR=1.0x1.0",
+	  "IsWeaponDisp04=1.0x1.0",
+	  "IsTypeA=1.0x1.0",
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsContainer=1.0x1",
+      "IsOversized=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "StatBasePrice=1.0x15000.0",
+      "StatDismantleProgressMax=1.0x160",
+      "StatInstallProgressMax=1.0x250",
+      "StatUninstallProgressMax=1.0x250",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x20",
+      "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsRack=1.0x1",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+	"bMapNoContainer": true,
+	"mapItemOverlays": [
+      "IsBatCR","ItmWRack1x401ABatCR",
+      "IsSluggerCR","ItmWRack1x401SBatCR"
+    ],
+    "strContainerCT"    : "TIsFitWRacksCR",
+	"nContainerStackMult": 5,
+    "nContainerHeight"  : 5,
+    "nContainerWidth"  : 5,
+    "mapPoints"      : [
+      "use,16,0"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x401CRDamage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x401CombCR"
+  },
+  {
+    "strName" : "ItmWRack1x401CRLoose",
+	"strNameShort": "Weapon Rack",
+    "strItemDef" : "ItmWRack1x401CRLoose",
+    "strNameFriendly" : "Weapon Display Rack: Bats (Loose)",
+    "strDesc" : "A wooden rack designed to hold weapons. Has space to display relics of an old Earth pastime. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.",
+    "strType"    : "Item",
+	"strLoot": "ItmWRack1x401DisplaysCR",
+	"aSlotsWeHave": [
+      "Disp01WRack1x401CR",
+      "Disp02WRack1x401CR"
+      ],
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "IsLuBanCR=1.0x1.0",
+	  "IsWeaponDisp04=1.0x1.0",
+	  "IsTypeA=1.0x1.0",
+      "IsEdged=1.0x1.0",
+      "IsRigid=1.0x1",
+      "IsTough=1.0x1.0",
+      "IsContainer=1.0x1",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "StatBasePrice=1.0x15000.00",
+      "StatDismantleProgressMax=1.0x160",
+      "StatInstallProgressMax=1.0x250",
+      "StatUninstallProgressMax=1.0x250",
+      "StatMass=1.0x28.0",
+      "StatDamageMax=1.0x20",
+      "IsWood=1.0x1",
+	  "IsFlammable=1.0x1",
+	  "IsSalvageValueHigh=1.0x1.0",
+      "IsRack=1.0x1",
+      "IsStorageFurniture=1.0x1",
+      "IsCategoryFurniture=1.0x1"
+    ],
+    "bMapNoContainer": true,
+	"mapItemOverlays": [
+      "IsBatCR","ItmWRack1x401ABatCR",
+      "IsSluggerCR","ItmWRack1x401SBatCR"
+    ],
+    "strContainerCT"    : "TIsFitWRacksCR",
+	"nContainerStackMult": 5,
+    "nContainerHeight"  : 5,
+    "nContainerWidth"  : 5,
+    "mapPoints"      : [
+      "use,16,0"
+    ],
+	"mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x401CRLooseDamage,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps"  : null,
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x401CRLoose"
+  },
+  {
+    "strName" : "ItmWRack1x401CRDmg",
+	"strReference": "ItmWRack1x401CR",
+    "strItemDef" : "ItmWRack1x401CRDmg",
+    "strNameFriendly" : "Weapon Display Rack: Bats (Damaged)",
+    "aInteractions" : [
+      "--DEL--",
+	  "Inventory",
+	  "--ADD--",
+	  "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+      "--ADD--",
+	  "IsDamaged=1.0x1",
+	  "StatRepairProgressMax=1.0x700",
+	  "--MOD--",
+      "StatBasePrice=1.0x8000.0",
+      "StatDamageMax=1.0x45"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x401CRDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x401CRDmg"
+  },
+  {
+    "strName" : "ItmWRack1x401CRDmgLoose",
+	"strReference": "ItmWRack1x401CRDmg",
+    "strItemDef" : "ItmWRack1x401CRDmgLoose",
+    "strNameFriendly" : "Weapon Display Rack: Bats (Loose, Damaged)",
+    "aInteractions" : [
+      "--DEL--",
+	  "ACTPryOpen",
+	  "--ADD--",
+	  "DropItem",
+	  "PickupItem"
+    ],
+    "aStartingConds" : [
+	  "--DEL--",
+	  "IsHiddenInv",
+	  "IsInstalled",
+	  "StatUninstallProgressMax",
+	  "--ADD--",
+	  "IsEdged=1.0x1.0",
+	  "IsRigid=1.0x1",
+      "IsTough=1.0x1.0"
+    ],
+	"mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x401CRLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x401CRLoose"
+  },
+  {
+    "strName" : "DispABatCR",
+    "strNameShort" : "Display: Bat",
+    "strNameFriendly" : "Display: Metal Bat",
+	"strDesc" : "A display for a metal bat.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitABatCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 2,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp01WRack1x401CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "DispSBatCR",
+    "strNameShort" : "Display: Slugger",
+    "strNameFriendly" : "Display: Slugger",
+	"strDesc" : "A display for a slugger.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitSBatCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 2,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp02WRack1x401CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  
+  {
+    "strName" : "ItmWRack1x402CR",
+	"strReference": "ItmWRack1x401CR",
+    "strItemDef" : "ItmWRack1x402CR",
+    "strNameFriendly" : "Weapon Display Rack: Medium Blade",
+    "strDesc" : "A wooden rack designed to hold weapons. Has space to display a cutlass and a machete. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.",
+	"strLoot": "ItmWRack1x402DisplaysCR",
+	"aSlotsWeHave": [
+      "Disp01WRack1x402CR",
+      "Disp02WRack1x402CR"
+      ],
+    "aStartingConds" : [
+      "--DEL--",
+	  "IsTypeA",
+	  "--ADD--",
+      "IsTypeB=1.0x1"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x402CRDamage,StatDamageMax,1.0"
+    ],
+	"mapItemOverlays": [
+      "IsMachCR","ItmWRack1x402MachCR",
+      "IsCutlCR","ItmWRack1x402CutlCR"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x402CR"
+  },
+  {
+    "strName" : "ItmWRack1x402CRLoose",
+	"strReference": "ItmWRack1x402CR",
+    "strItemDef" : "ItmWRack1x402CRLoose",
+    "strNameFriendly" : "Weapon Display Rack: Medium Blade (Loose)",
+     "aInteractions": [
+      "--ADD--",
+      "DropItem",
+      "PickupItem"
+    ],
+	"aStartingConds" : [
+      "--DEL--",
+	  "IsHiddenInv",
+	  "IsInstalled",
+	  "StatUninstallProgressMax",
+	  "--ADD--",
+      "IsCumbersome=1.0x1"
+    ],
+	"mapSlotEffects": [
+      "drag","Blank"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x402CRLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x402CRLoose"
+  },
+  {
+    "strName" : "ItmWRack1x402CRDmg",
+	"strReference": "ItmWRack1x402CR",
+    "strItemDef" : "ItmWRack1x402CRDmg",
+    "strNameFriendly" : "Weapon Display Rack: Medium Blade (Damaged)",
+	"aInteractions": [
+      "--DEL--",
+	  "Inventory",
+	  "--ADD--",
+      "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+	  "--ADD--",
+      "IsDamaged=1.0x1",
+      "StatRepairProgressMax=1.0x700",
+	  "--MOD--",
+	  "StatBasePrice=1.0x8000",
+	  "StatDamageMax=1.0x45"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x402CRDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x402CRDmg"
+  },
+  {
+    "strName" : "ItmWRack1x402CRDmgLoose",
+	"strReference": "ItmWRack1x402CRDmg",
+    "strItemDef" : "ItmWRack1x402CRDmgLoose",
+    "strNameFriendly" : "Weapon Display Rack: Medium Blade (Loose, Damaged)",
+	"aInteractions": [
+      "--ADD--",
+      "DropItem",
+      "PickupItem",
+	  "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+      "--DEL--",
+	  "IsHiddenInv",
+	  "IsInstalled",
+	  "StatUninstallProgressMax",
+	  "--ADD--",
+      "IsCumbersome=1.0x1"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x402CRLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x402CRDmgLoose"
+  },
+  {
+    "strName" : "DispMachCR",
+    "strNameShort" : "Display: Machete",
+    "strNameFriendly" : "Display: Machete",
+	"strDesc" : "A display for a machete.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitMachCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 2,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp01WRack1x402CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "DispCutlCR",
+    "strNameShort" : "Display: Cutlass",
+    "strNameFriendly" : "Display: Cutlass",
+	"strDesc" : "A display for a cutlass.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitCutlCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 2,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp02WRack1x402CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmWRack1x403CR",
+	"strReference": "ItmWRack1x401CR",
+    "strItemDef" : "ItmWRack1x403CR",
+    "strNameFriendly" : "Weapon Display Rack: Long Blade",
+    "strDesc" : "A wooden rack designed to hold weapons. Has space to display a katana and a spear. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.",
+	"strLoot": "ItmWRack1x403DisplaysCR",
+	"aSlotsWeHave": [
+      "Disp01WRack1x403CR",
+      "Disp02WRack1x403CR"
+      ],
+    "aStartingConds" : [
+      "--DEL--",
+	  "IsTypeA",
+	  "--ADD--",
+      "IsTypeC=1.0x1"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x403CRDamage,StatDamageMax,1.0"
+    ],
+	"mapItemOverlays": [
+      "IsKataCR","ItmWRack1x403KataCR",
+      "IsSpeaCR","ItmWRack1x403SpeaCR"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x403CR"
+  },
+  {
+    "strName" : "ItmWRack1x403CRLoose",
+	"strReference": "ItmWRack1x403CR",
+    "strItemDef" : "ItmWRack1x403CRLoose",
+    "strNameFriendly" : "Weapon Display Rack: Long Blade (Loose)",
+     "aInteractions": [
+      "--ADD--",
+      "DropItem",
+      "PickupItem"
+    ],
+	"aStartingConds" : [
+      "--DEL--",
+	  "IsHiddenInv",
+	  "IsInstalled",
+	  "StatUninstallProgressMax",
+	  "--ADD--",
+      "IsCumbersome=1.0x1"
+    ],
+	"mapSlotEffects": [
+      "drag","Blank"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x403CRLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x403CRLoose"
+  },
+  {
+    "strName" : "ItmWRack1x403CRDmg",
+	"strReference": "ItmWRack1x403CR",
+    "strItemDef" : "ItmWRack1x403CRDmg",
+    "strNameFriendly" : "Weapon Display Rack: Long Blade (Damaged)",
+	"aInteractions": [
+      "--DEL--",
+	  "Inventory",
+	  "--ADD--",
+      "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+	  "--ADD--",
+      "IsDamaged=1.0x1",
+      "StatRepairProgressMax=1.0x700",
+	  "--MOD--",
+	  "StatBasePrice=1.0x8000",
+	  "StatDamageMax=1.0x45"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x403CRDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x403CRDmg"
+  },
+  {
+    "strName" : "ItmWRack1x403CRDmgLoose",
+	"strReference": "ItmWRack1x403CRDmg",
+    "strItemDef" : "ItmWRack1x403CRDmgLoose",
+    "strNameFriendly" : "Weapon Display Rack: Long Blade (Loose, Damaged)",
+	"aInteractions": [
+      "--ADD--",
+      "DropItem",
+      "PickupItem",
+	  "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+      "--DEL--",
+	  "IsHiddenInv",
+	  "IsInstalled",
+	  "StatUninstallProgressMax",
+	  "--ADD--",
+      "IsCumbersome=1.0x1"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x403CRLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x403CRDmgLoose"
+  },
+  {
+    "strName" : "DispKataCR",
+    "strNameShort" : "Display: Katana",
+    "strNameFriendly" : "Display: Katana",
+	"strDesc" : "A display for a katana.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitKataCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 3,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp01WRack1x403CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "DispSpeaCR",
+    "strNameShort" : "Display: Spear",
+    "strNameFriendly" : "Display: Spear",
+	"strDesc" : "A display for a spear.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitSpeaCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 3,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp02WRack1x403CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmWRack1x301CR",
+	"strReference": "ItmWRack1x401CR",
+    "strItemDef" : "ItmWRack1x301CR",
+    "strNameFriendly" : "Weapon Display Rack: Blunt",
+    "strDesc" : "A wooden rack designed to hold weapons. Has space to display a brass knuckle, a nightstick, and a billy club. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.",
+	"strLoot": "ItmWRack1x301DisplaysCR",
+	"aSlotsWeHave": [
+      "Disp01WRack1x301CR",
+      "Disp02WRack1x301CR",
+	  "Disp03WRack1x301CR"
+      ],
+    "aStartingConds" : [
+	  "--DEL--",
+	  "IsWeaponDisp04",
+	  "--ADD--",
+	  "IsWeaponDisp03=1.0x1.0",
+	  "--MOD--",
+      "StatMass=1.0x21.0",
+	  "StatBasePrice=1.0x15000.0",
+	  "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x230",
+      "StatUninstallProgressMax=1.0x230"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x301CRDamage,StatDamageMax,1.0"
+    ],
+	"mapItemOverlays": [
+      "IsKnucCR","ItmWRack1x301KnucCR",
+      "IsBClubCR","ItmWRack1x301BClubCR",
+	  "IsNStickCR","ItmWRack1x301NStickCR"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x301CR"
+  },
+  {
+    "strName" : "ItmWRack1x301CRLoose",
+	"strReference": "ItmWRack1x301CR",
+    "strItemDef" : "ItmWRack1x301CRLoose",
+    "strNameFriendly" : "Weapon Display Rack: Blunt (Loose)",
+     "aInteractions": [
+      "--ADD--",
+      "DropItem",
+      "PickupItem"
+    ],
+	"aStartingConds" : [
+      "--DEL--",
+	  "IsHiddenInv",
+	  "IsInstalled",
+	  "StatUninstallProgressMax",
+	  "--ADD--",
+      "IsCumbersome=1.0x1"
+    ],
+	"mapSlotEffects": [
+      "drag","Blank"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x301CRLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x301CRLoose"
+  },
+  {
+    "strName" : "ItmWRack1x301CRDmg",
+	"strReference": "ItmWRack1x301CR",
+    "strItemDef" : "ItmWRack1x301CRDmg",
+    "strNameFriendly" : "Weapon Display Rack: Blunt (Damaged)",
+	"aInteractions": [
+      "--DEL--",
+	  "Inventory",
+	  "--ADD--",
+      "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+	  "--ADD--",
+      "IsDamaged=1.0x1",
+      "StatRepairProgressMax=1.0x610",
+	  "--MOD--",
+	  "StatBasePrice=1.0x8000",
+	  "StatDamageMax=1.0x30"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x301CRDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x301CRDmg"
+  },
+  {
+    "strName" : "ItmWRack1x301CRDmgLoose",
+	"strReference": "ItmWRack1x301CRDmg",
+    "strItemDef" : "ItmWRack1x301CRDmgLoose",
+    "strNameFriendly" : "Weapon Display Rack: Blunt (Loose, Damaged)",
+	"aInteractions": [
+      "--ADD--",
+      "DropItem",
+      "PickupItem",
+	  "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+      "--DEL--",
+	  "IsHiddenInv",
+	  "IsInstalled",
+	  "StatUninstallProgressMax",
+	  "--ADD--",
+      "IsCumbersome=1.0x1"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x301CRLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x301CRDmgLoose"
+  },
+  {
+    "strName" : "DispKnucCR",
+    "strNameShort" : "Display: Knuckle",
+    "strNameFriendly" : "Display: Brass Knuckles",
+	"strDesc" : "A display for a brass knuckles.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitKnucCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp01WRack1x301CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "DispBClubCR",
+    "strNameShort" : "Display: Billy Club",
+    "strNameFriendly" : "Display: Billy Club",
+	"strDesc" : "A display for a billy club.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitBClubCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp02WRack1x301CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "DispNStickCR",
+    "strNameShort" : "Display: Night Stick",
+    "strNameFriendly" : "Display: Night Stick",
+	"strDesc" : "A display for a night stick.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitNStickCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 2,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp03WRack1x301CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "ItmWRack1x201CR",
+	"strReference": "ItmWRack1x401CR",
+    "strItemDef" : "ItmWRack1x201CR",
+    "strNameFriendly" : "Weapon Display Rack: Small Blades",
+    "strDesc" : "A wooden rack designed to hold weapons. Has space to display a combat knife, a pocketknife, and a shiv. Wood had only increased in value post ablation cascade as only a few places can dedicate the space needed for tree growth. Stack multiplier: x5.",
+	"strLoot": "ItmWRack1x201DisplaysCR",
+	"aSlotsWeHave": [
+      "Disp01WRack1x201CR",
+      "Disp02WRack1x201CR",
+	  "Disp03WRack1x201CR"
+      ],
+    "aStartingConds" : [
+	  "--DEL--",
+	  "IsWeaponDisp04",
+	  "--ADD--",
+	  "IsWeaponDisp02=1.0x1.0",
+	  "--MOD--",
+      "StatMass=1.0x21.0",
+	  "StatBasePrice=1.0x15000.0",
+	  "StatDismantleProgressMax=1.0x140",
+      "StatInstallProgressMax=1.0x210",
+      "StatUninstallProgressMax=1.0x210",
+	  "StatDamageMax=1.0x10"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x201CRDamage,StatDamageMax,1.0"
+    ],
+	"mapItemOverlays": [
+      "IsTKnifeCR","ItmWRack1x201TKnifeCR",
+      "IsPKnifeCR","ItmWRack1x201PKnifeCR",
+	  "IsShivCR","ItmWRack1x201ShivCR"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x201CR"
+  },
+  {
+    "strName" : "ItmWRack1x201CRLoose",
+	"strReference": "ItmWRack1x201CR",
+    "strItemDef" : "ItmWRack1x201CRLoose",
+    "strNameFriendly" : "Weapon Display Rack: Small Blades (Loose)",
+     "aInteractions": [
+      "--ADD--",
+      "DropItem",
+      "PickupItem"
+    ],
+	"aStartingConds" : [
+      "--DEL--",
+	  "IsHiddenInv",
+	  "IsInstalled",
+	  "StatUninstallProgressMax",
+	  "--ADD--",
+      "IsCumbersome=1.0x1"
+    ],
+	"mapSlotEffects": [
+      "drag","Blank"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x201CRLooseDamage,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x201CRLoose"
+  },
+  {
+    "strName" : "ItmWRack1x201CRDmg",
+	"strReference": "ItmWRack1x201CR",
+    "strItemDef" : "ItmWRack1x201CRDmg",
+    "strNameFriendly" : "Weapon Display Rack: Small Blades (Damaged)",
+	"aInteractions": [
+      "--DEL--",
+	  "Inventory",
+	  "--ADD--",
+      "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+	  "--ADD--",
+      "IsDamaged=1.0x1",
+      "StatRepairProgressMax=1.0x590",
+	  "--MOD--",
+	  "StatBasePrice=1.0x8000",
+	  "StatDamageMax=1.0x20"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x201CRDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x201CRDmg"
+  },
+  {
+    "strName" : "ItmWRack1x201CRDmgLoose",
+	"strReference": "ItmWRack1x201CRDmg",
+    "strItemDef" : "ItmWRack1x201CRDmgLoose",
+    "strNameFriendly" : "Weapon Display Rack: Small Blades (Loose, Damaged)",
+	"aInteractions": [
+      "--ADD--",
+      "DropItem",
+      "PickupItem",
+	  "ACTPryOpen"
+    ],
+    "aStartingConds" : [
+      "--DEL--",
+	  "IsHiddenInv",
+	  "IsInstalled",
+	  "StatUninstallProgressMax",
+	  "--ADD--",
+      "IsCumbersome=1.0x1"
+    ],
+	"aUpdateCommands" : [
+      "Destructable,StatDamage,ACTWRack1x201CRLooseDestroy,StatDamageMax,1.0"
+    ],
+    "strPortraitImg"  : "containers/wracks/ItmWRack1x201CRDmgLoose"
+  },
+  {
+    "strName" : "DispTKnifeCR",
+    "strNameShort" : "Display: Tac Knife",
+    "strNameFriendly" : "Display: Tactical Knife",
+	"strDesc" : "A display for a tactical knife.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitTKnifeCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp01WRack1x201CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "DispPKnifeCR",
+    "strNameShort" : "Display: Pockeknife",
+    "strNameFriendly" : "Display: Pockeknife",
+	"strDesc" : "A display for a pockeknife.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitPKnifeCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp02WRack1x201CR","Blank"
+    ],
+    "jsonPI"            : null
+  },
+  {
+    "strName" : "DispShivCR",
+    "strNameShort" : "Display: Shiv",
+    "strNameFriendly" : "Display: Shiv",
+	"strDesc" : "A display for a shiv.",
+	"strItemDef" : "Blank",
+    "strType"    : "Item",
+    "nStackLimit"    : 1,
+    "aStartingConds" : [
+      "IsContainer=1.0x1",
+      "IsSystem=1.0x1"
+    ],
+    "bSlotLocked" : true,
+    "strContainerCT"    : "TIsFitShivCR",
+    "nContainerHeight"   : 1,
+    "nContainerWidth"   : 1,
+	"strPortraitImg"  : "blank",
+    "mapSlotEffects" : [
+      "Disp03WRack1x201CR","Blank"
+    ],
+    "jsonPI"            : null
+  }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "strName": "ItmWRack1x401CR",
+        "aCOs": [
+            "ItmWRack1x401CR=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x401CRLoose",
+        "aCOs": [
+            "ItmWRack1x401CRLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x401CRDmg",
+        "aCOs": [
+            "ItmWRack1x401CRDmg=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x401CRDmgLoose",
+        "aCOs": [
+            "ItmWRack1x401CRDmgLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x402CR",
+        "aCOs": [
+            "ItmWRack1x402CR=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x402CRLoose",
+        "aCOs": [
+            "ItmWRack1x402CRLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x402CRDmg",
+        "aCOs": [
+            "ItmWRack1x402CRDmg=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x402CRDmgLoose",
+        "aCOs": [
+            "ItmWRack1x402CRDmgLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x403CR",
+        "aCOs": [
+            "ItmWRack1x403CR=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x403CRLoose",
+        "aCOs": [
+            "ItmWRack1x403CRLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x403CRDmg",
+        "aCOs": [
+            "ItmWRack1x403CRDmg=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x403CRDmgLoose",
+        "aCOs": [
+            "ItmWRack1x403CRDmgLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x301CR",
+        "aCOs": [
+            "ItmWRack1x301CR=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x301CRLoose",
+        "aCOs": [
+            "ItmWRack1x301CRLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x301CRDmg",
+        "aCOs": [
+            "ItmWRack1x301CRDmg=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x301CRDmgLoose",
+        "aCOs": [
+            "ItmWRack1x301CRDmgLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x201CR",
+        "aCOs": [
+            "ItmWRack1x201CR=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x201CRLoose",
+        "aCOs": [
+            "ItmWRack1x201CRLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x201CRDmg",
+        "aCOs": [
+            "ItmWRack1x201CRDmg=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    },
+	{
+        "strName": "ItmWRack1x201CRDmgLoose",
+        "aCOs": [
+            "ItmWRack1x201CRDmgLoose=1.0x1"
+        ],
+        "aLoots": [],
+        "bSuppress": true,
+        "bNested": true,
+        "strType": "item"
+    }
+]

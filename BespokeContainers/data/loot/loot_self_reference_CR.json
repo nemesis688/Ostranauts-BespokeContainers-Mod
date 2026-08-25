@@ -1,0 +1,100 @@
+[
+  {
+    "strName": "ItmHopeChest1x201CR",
+    "aCOs": [
+      "ItmHopeChest1x201CR=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmHopeChest1x201CRLoose",
+    "aCOs": [
+      "ItmHopeChest1x201CRLoose=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmHopeChest1x201CRDmg",
+    "aCOs": [
+      "ItmHopeChest1x201CRDmg=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmHopeChest1x201CRDmgLoose",
+    "aCOs": [
+      "ItmHopeChest1x201CRDmgLoose=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  
+  {
+    "strName": "ItmCoatRack1x201CR",
+    "aCOs": [
+      "ItmCoatRack1x201CR=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCoatRack1x201CRLoose",
+    "aCOs": [
+      "ItmCoatRack1x201CRLoose=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCoatRack1x201CRDmg",
+    "aCOs": [
+      "ItmCoatRack1x201CRDmg=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmCoatRack1x201CRDmgLoose",
+    "aCOs": [
+      "ItmCoatRack1x201CRDmgLoose=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  
+  {
+    "strName": "ItmShoeRack1x101CR",
+    "aCOs": [
+      "ItmShoeRack1x101CR=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmShoeRack1x101CRLoose",
+    "aCOs": [
+      "ItmShoeRack1x101CRLoose=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmShoeRack1x101CRDmg",
+    "aCOs": [
+      "ItmShoeRack1x101CRDmg=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  },
+  {
+    "strName": "ItmShoeRack1x101CRDmgLoose",
+    "aCOs": [
+      "ItmShoeRack1x101CRDmgLoose=1.0x1"
+    ],
+    "aLoots": [],
+    "strType": "item"
+  }
+]

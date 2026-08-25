@@ -1,0 +1,202 @@
+[
+    {
+        "strName": "MSWRack1x401CRDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmRack1x401CRDamage"
+    },
+    {
+        "strName": "MSWRack1x401CRDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    },
+    {
+        "strName": "MSWRack1x401CRLooseDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRLooseDamage"
+    },
+    {
+        "strName": "MSWRack1x401CRLooseDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    },
+	{
+        "strName": "MSWRack1x402CRDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmRack1x402CRDamage"
+    },
+	{
+        "strName": "MSWRack1x402CRLooseDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x402CRLooseDamage"
+    },
+	{
+        "strName": "MSWRack1x402CRDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    },
+	{
+        "strName": "MSWRack1x402CRLooseDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    },
+	{
+        "strName": "MSWRack1x403CRDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmRack1x403CRDamage"
+    },
+	{
+        "strName": "MSWRack1x403CRLooseDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x403CRLooseDamage"
+    },
+	{
+        "strName": "MSWRack1x403CRDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    },
+	{
+        "strName": "MSWRack1x403CRLooseDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    },
+	{
+        "strName": "MSWRack1x301CRDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmRack1x301CRDamage"
+    },
+	{
+        "strName": "MSWRack1x301CRLooseDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x301CRLooseDamage"
+    },
+	{
+        "strName": "MSWRack1x301CRDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    },
+	{
+        "strName": "MSWRack1x301CRLooseDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    },
+	{
+        "strName": "MSWRack1x201CRDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmRack1x201CRDamage"
+    },
+	{
+        "strName": "MSWRack1x201CRLooseDamage",
+        "strTitle": "",
+        "strDesc": "[us] [is] damaged.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x201CRLooseDamage"
+    },
+	{
+        "strName": "MSWRack1x201CRDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    },
+	{
+        "strName": "MSWRack1x201CRLooseDestroy",
+        "strTitle": "",
+        "strDesc": "[us] [is] destroyed.",
+        "fDuration": 0.0,
+        "strThemType": "Other",
+        "bIgnoreFeelings": true,
+        "nLogging": 1,
+        "objLootModeSwitch": "ItmWRack1x401CRDestroy"
+    }
+]

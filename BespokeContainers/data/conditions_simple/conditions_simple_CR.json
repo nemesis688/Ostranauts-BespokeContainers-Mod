@@ -1,0 +1,122 @@
+[
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsLuBanCR","Lu Ban","[us] [is] a woodworkers workshop based in, and around, Hangzhou Orbital.\n\nLu Ban is one of the only places in the system that produces wooden art and furnishings. The art of woodworking would likely have gone extinct post ablation cascade without the patronage Hangzhou's residents.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsStorageHopeChestCR","Hope Chest","[us] [is] a container for clothes.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsStorageCoatRackCR","Coat Rack","[us] [is] a container for coats and coveralls.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsStorageShoeRackCR","Shoe Rack","[us] [is] a container for shoes.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsWeaponDisp04","Weapon Rack","[us] [is] a 1x4 display container for melee weapons.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsWeaponDisp03","Weapon Rack","[us] [is] a 1x3 display container for melee weapons.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsWeaponDisp02","Weapon Rack","[us] [is] a 1x2 display container for melee weapons.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsWeaponDispR","Weapon Rack","[us] [is] a display container for ranged weapons.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsBatCR","Bat","[us] [is] a metal bat.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsSluggerCR","Bat","[us] [is] a slugger.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsMachCR","Machete","[us] [is] a machete.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsCutlCR","Cutlass","[us] [is] a cutlass.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsKataCR","Katana","[us] [is] a katana.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsSpeaCR","Spear","[us] [is] a spear.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsKnucCR","Knuckleduster","[us] [is] a knuckleduster.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsBClubCR","Billy Club","[us] [is] a short baton.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsNStickCR","Nightstick","[us] [is] a long baton.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsTKnifeCR","Tactical Knife","[us] [is] a combat knife.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsShivCR","Shiv","[us] [is] a small makeshift knife.","2","2","Neutral","false"
+    ]
+  },
+  {
+   "strName" : "Simple Conditions",
+   "aValues" : [
+	"IsPKnifeCR","Pocketknife","[us] [is] a small knife.","2","2","Neutral","false"
+    ]
+  }
+]

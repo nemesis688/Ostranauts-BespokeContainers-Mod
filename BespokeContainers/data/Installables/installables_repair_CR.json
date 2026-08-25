@@ -1,0 +1,469 @@
+[
+  {
+    "strName": "HopeChest1x201CRDmgRepair",
+    "strActionCO": "ItmHopeChest1x201CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapAluminum=1.0x2",
+	  "TIsScrapPlastic=1.0x2"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmHopeChest1x201CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "HopeChest1x201CRDmgLooseRepair",
+    "strActionCO": "ItmHopeChest1x201CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapAluminum=1.0x2",
+	  "TIsScrapPlastic=1.0x2"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmHopeChest1x201CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  
+  {
+    "strName": "CoatRack1x201CRDmgRepair",
+    "strActionCO": "ItmCoatRack1x201CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapAluminum=1.0x2",
+	  "TIsScrapPlastic=1.0x2"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmCoatRack1x201CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "CoatRack1x201CRDmgLooseRepair",
+    "strActionCO": "ItmCoatRack1x201CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x2",
+      "TIsScrapAluminum=1.0x2",
+	  "TIsScrapPlastic=1.0x2"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmCoatRack1x201CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  
+  {
+    "strName": "ShoeRack1x101CRDmgRepair",
+    "strActionCO": "ItmShoeRack1x101CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x1",
+      "TIsScrapAluminum=1.0x1",
+	  "TIsScrapPlastic=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmShoeRack1x101CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "ShoeRack1x101CRDmgLooseRepair",
+    "strActionCO": "ItmShoeRack1x101CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x1",
+      "TIsScrapAluminum=1.0x1",
+	  "TIsScrapPlastic=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmShoeRack1x101CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  
+  {
+    "strName": "WRack1x401CRDmgRepair",
+    "strActionCO": "ItmWRack1x401CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x401CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x401CRDmgLooseRepair",
+    "strActionCO": "ItmWRack1x401CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x401CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x402CRDmgRepair",
+    "strActionCO": "ItmWRack1x402CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x402CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x402CRDmgLooseRepair",
+    "strActionCO": "ItmWRack1x402CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x402CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x403CRDmgRepair",
+    "strActionCO": "ItmWRack1x403CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x403CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x403CRDmgLooseRepair",
+    "strActionCO": "ItmWRack1x403CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x403CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x301CRDmgRepair",
+    "strActionCO": "ItmWRack1x301CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x301CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x301CRDmgLooseRepair",
+    "strActionCO": "ItmWRack1x301CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x301CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x201CRDmgRepair",
+    "strActionCO": "ItmWRack1x201CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x201CR"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x201CRDmgLooseRepair",
+    "strActionCO": "ItmWRack1x201CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Repairs item to a functional state.",
+    "strInteractionTemplate": "ACTRepairTEMP",
+    "CTThem": "TIsRepairableNotContained",
+    "aInputs": [
+      "TIsPartsMechSmall=1.0x4",
+      "TIsScrapAluminum=1.0x4",
+	  "TIsScrapPlastic=1.0x4"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq",
+      "TIsToolBuffing"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x201CRLoose"
+    ],
+    "strJobType": "repair",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDRepairProgressx5",
+    "strProgressStat": "StatRepairProgress",
+    "strCTThemMultCondTools": "IsToolWelding",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  }
+]

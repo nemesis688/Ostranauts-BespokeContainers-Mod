@@ -1,0 +1,98 @@
+[
+  {
+    "strName" : "ItmWeaponBaseballBat01",
+    "strNameFriendly" : "Bat",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsBatCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponBaseballBat02",
+    "strNameFriendly" : "Slugger",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsSluggerCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponMachete01",
+    "strNameFriendly" : "Machete",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsMachCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponCutlass01",
+    "strNameFriendly" : "Cutlass",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsCutlCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponKatana01",
+    "strNameFriendly" : "Katana",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsKataCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponSpear01",
+    "strNameFriendly" : "Spear",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsSpeaCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponKnuckles01",
+    "strNameFriendly" : "Knuckleduster",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsKnucCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponNightstick01",
+    "strNameFriendly" : "Short Billy Club",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsBClubCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponNightstick02",
+    "strNameFriendly" : "Nightstick",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsNStickCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponShiv01",
+    "strNameFriendly" : "Shiv",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsShivCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponKnife01",
+    "strNameFriendly" : "Tactical Knife",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsTKnifeCR=1.0x1.0"
+    ]
+  },
+  {
+    "strName" : "ItmWeaponPocketKnife01",
+    "strNameFriendly" : "Pocketknife",
+    "aStartingConds" : [
+      "--ADD--",
+      "IsPKnifeCR=1.0x1.0"
+    ]
+  }
+]

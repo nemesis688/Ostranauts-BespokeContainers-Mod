@@ -1,0 +1,836 @@
+[
+  {
+    "strName": "HopeChest1x201CRInstall",
+    "strActionCO": "ItmHopeChest1x201CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsHopeChest1x201CRUninstalled",
+    "aInputs": [
+      "TIsHopeChest1x201CRUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmHopeChest1x201CR"
+    ],
+    "strStartInstall": "ItmHopeChest1x201CR",
+    "strBuildType": "FURN",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "HopeChest1x201CRDmgInstall",
+    "strActionCO": "ItmHopeChest1x201CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsHopeChest1x201CRUninstalledDmg",
+    "aInputs": [
+      "TIsHopeChest1x201CRUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmHopeChest1x201CRDmg"
+    ],
+    "strStartInstall": "ItmHopeChest1x201CRDmg",
+    "strBuildType": "",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "HopeChest1x201CRUninstall",
+    "strActionCO": "ItmHopeChest1x201CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsHopeChest1x201CRInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmHopeChest1x201CRLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "HopeChest1x201CRDmgUninstall",
+    "strActionCO": "ItmHopeChest1x201CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsHopeChest1x201CRInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmHopeChest1x201CRDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  
+  {
+    "strName": "CoatRack1x201CRInstall",
+    "strActionCO": "ItmCoatRack1x201CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsCoatRack1x201CRUninstalled",
+    "aInputs": [
+      "TIsCoatRack1x201CRUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmCoatRack1x201CR"
+    ],
+    "strStartInstall": "ItmCoatRack1x201CR",
+    "strBuildType": "FURN",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "CoatRack1x201CRDmgInstall",
+    "strActionCO": "ItmCoatRack1x201CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsCoatRack1x201CRUninstalledDmg",
+    "aInputs": [
+      "TIsCoatRack1x201CRUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmCoatRack1x201CRDmg"
+    ],
+    "strStartInstall": "ItmCoatRack1x201CRDmg",
+    "strBuildType": "",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "CoatRack1x201CRUninstall",
+    "strActionCO": "ItmCoatRack1x201CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsCoatRack1x201CRInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmCoatRack1x201CRLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "CoatRack1x201CRDmgUninstall",
+    "strActionCO": "ItmCoatRack1x201CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsCoatRack1x201CRInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmCoatRack1x201CRDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  
+  {
+    "strName": "ShoeRack1x101CRInstall",
+    "strActionCO": "ItmShoeRack1x101CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsShoeRack1x101CRUninstalled",
+    "aInputs": [
+      "TIsShoeRack1x101CRUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmShoeRack1x101CR"
+    ],
+    "strStartInstall": "ItmShoeRack1x101CR",
+    "strBuildType": "FURN",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "ShoeRack1x101CRDmgInstall",
+    "strActionCO": "ItmShoeRack1x101CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsShoeRack1x101CRUninstalledDmg",
+    "aInputs": [
+      "TIsShoeRack1x101CRUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmShoeRack1x101CRDmg"
+    ],
+    "strStartInstall": "ItmShoeRack1x101CRDmg",
+    "strBuildType": "",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "ShoeRack1x101CRUninstall",
+    "strActionCO": "ItmShoeRack1x101CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsShoeRack1x101CRInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmShoeRack1x101CRLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "ShoeRack1x101CRDmgUninstall",
+    "strActionCO": "ItmShoeRack1x101CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsShoeRack1x101CRInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmShoeRack1x101CRDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x401CRInstall",
+    "strActionCO": "ItmWRack1x401CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x401CRUninstalled",
+    "aInputs": [
+      "TIsWRack1x401CRUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x401CR"
+    ],
+    "strStartInstall": "ItmWRack1x401CR",
+    "strBuildType": "FURN",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x401CRDmgInstall",
+    "strActionCO": "ItmWRack1x401CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x401CRUninstalledDmg",
+    "aInputs": [
+      "TIsWRack1x401CRUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x401CRDmg"
+    ],
+    "strStartInstall": "ItmWRack1x401CRDmg",
+    "strBuildType": "",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x401CRUninstall",
+    "strActionCO": "ItmWRack1x401CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x401CRInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x401CRLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x401CRDmgUninstall",
+    "strActionCO": "ItmWRack1x401CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x401CRInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x401CRDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x402CRInstall",
+    "strActionCO": "ItmWRack1x402CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x402CRUninstalled",
+    "aInputs": [
+      "TIsWRack1x402CRUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x402CR"
+    ],
+    "strStartInstall": "ItmWRack1x402CR",
+    "strBuildType": "FURN",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x402CRDmgInstall",
+    "strActionCO": "ItmWRack1x402CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x402CRUninstalledDmg",
+    "aInputs": [
+      "TIsWRack1x402CRUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x402CRDmg"
+    ],
+    "strStartInstall": "ItmWRack1x402CRDmg",
+    "strBuildType": "",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x402CRUninstall",
+    "strActionCO": "ItmWRack1x402CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x402CRInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x402CRLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x402CRDmgUninstall",
+    "strActionCO": "ItmWRack1x402CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x402CRInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x402CRDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x403CRInstall",
+    "strActionCO": "ItmWRack1x403CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x403CRUninstalled",
+    "aInputs": [
+      "TIsWRack1x403CRUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x403CR"
+    ],
+    "strStartInstall": "ItmWRack1x403CR",
+    "strBuildType": "FURN",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x403CRDmgInstall",
+    "strActionCO": "ItmWRack1x403CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x403CRUninstalledDmg",
+    "aInputs": [
+      "TIsWRack1x403CRUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x403CRDmg"
+    ],
+    "strStartInstall": "ItmWRack1x403CRDmg",
+    "strBuildType": "",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x403CRUninstall",
+    "strActionCO": "ItmWRack1x403CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x403CRInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x403CRLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x403CRDmgUninstall",
+    "strActionCO": "ItmWRack1x403CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x403CRInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x403CRDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x301CRInstall",
+    "strActionCO": "ItmWRack1x301CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x301CRUninstalled",
+    "aInputs": [
+      "TIsWRack1x301CRUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x301CR"
+    ],
+    "strStartInstall": "ItmWRack1x301CR",
+    "strBuildType": "FURN",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x301CRDmgInstall",
+    "strActionCO": "ItmWRack1x301CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x301CRUninstalledDmg",
+    "aInputs": [
+      "TIsWRack1x301CRUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x301CRDmg"
+    ],
+    "strStartInstall": "ItmWRack1x301CRDmg",
+    "strBuildType": "",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x301CRUninstall",
+    "strActionCO": "ItmWRack1x301CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x301CRInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x301CRLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x301CRDmgUninstall",
+    "strActionCO": "ItmWRack1x301CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x301CRInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x301CRDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x201CRInstall",
+    "strActionCO": "ItmWRack1x201CRLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x201CRUninstalled",
+    "aInputs": [
+      "TIsWRack1x201CRUninstalled=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x201CR"
+    ],
+    "strStartInstall": "ItmWRack1x201CR",
+    "strBuildType": "FURN",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x201CRDmgInstall",
+    "strActionCO": "ItmWRack1x201CRDmgLoose",
+    "strActionGroup": "Work",
+    "strTooltip": "Installs item.",
+    "strInteractionTemplate": "ACTInstallTEMP",
+    "CTThem": "TIsWRack1x201CRUninstalledDmg",
+    "aInputs": [
+      "TIsWRack1x201CRUninstalledDmg=1.0x1"
+    ],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x201CRDmg"
+    ],
+    "strStartInstall": "ItmWRack1x201CRDmg",
+    "strBuildType": "",
+    "strJobType": "install",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDInstallProgressx5",
+    "strProgressStat": "StatInstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x201CRUninstall",
+    "strActionCO": "ItmWRack1x201CR",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x201CRInstalled",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x201CRLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  },
+  {
+    "strName": "WRack1x201CRDmgUninstall",
+    "strActionCO": "ItmWRack1x201CRDmg",
+    "strActionGroup": "Work",
+    "strTooltip": "Uninstalls item.",
+    "strInteractionTemplate": "ACTUninstallTEMP",
+    "CTThem": "TIsWRack1x201CRInstalledDmg",
+    "aInputs": [],
+    "fTargetPointRange": 2,
+    "fDuration": 0.001,
+    "bSparks": false,
+    "aToolCTsUse": [
+      "TIsToolMortorq"
+    ],
+    "aLootCOs": [
+      "ItmWRack1x201CRDmgLoose"
+    ],
+    "strJobType": "uninstall",
+    "strAllowLootCTsUs": "CTWorkProgressFURN",
+    "strAllowLootCTsThem": "CONDUninstallProgressx5",
+    "strProgressStat": "StatUninstallProgress",
+    "strCTThemMultCondTools": "IsToolMortorq",
+    "strCTThemMultCondUs": "StatInstallRateFURN"
+  }
+]

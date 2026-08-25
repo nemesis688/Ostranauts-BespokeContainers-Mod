@@ -1,0 +1,499 @@
+[
+  {
+    "strName": "TIsFitWRacksCR",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsCategoryWeapons"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x401CRUninstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeA"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x401CRUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeA",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x401CRInstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeA",
+      "IsInstalled"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x401CRInstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeA",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitABatCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsBatCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitSBatCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSluggerCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x402CRUninstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeB"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x402CRUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeB",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x402CRInstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeB",
+      "IsInstalled"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x402CRInstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeB",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitMachCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsMachCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitCutlCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsCutlCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x403CRUninstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeC"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x403CRUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeC",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x403CRInstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeC",
+      "IsInstalled"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x403CRInstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp04",
+      "IsTypeC",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitKataCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsKataCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitSpeaCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsSpeaCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x301CRUninstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp03",
+      "IsTypeA"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x301CRUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp03",
+      "IsTypeA",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x301CRInstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp03",
+      "IsTypeA",
+      "IsInstalled"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x301CRInstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp03",
+      "IsTypeA",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitKnucCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsKnucCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitBClubCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsBClubCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitNStickCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsNStickCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x201CRUninstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp02",
+      "IsTypeA"
+    ],
+    "aForbids": [
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x201CRUninstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp02",
+      "IsTypeA",
+      "IsDamaged"
+    ],
+    "aForbids": [
+      "IsInstalled"
+    ],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x201CRInstalled",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp02",
+      "IsTypeA",
+      "IsInstalled"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsWRack1x201CRInstalledDmg",
+    "strCondName": "",
+    "fChance": 1,
+    "fCount": 1,
+    "aReqs": [
+      "IsWeaponDisp02",
+      "IsTypeA",
+      "IsInstalled",
+      "IsDamaged"
+    ],
+    "aForbids": [],
+    "aTriggers": [],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitTKnifeCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsTKnifeCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitPKnifeCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsPKnifeCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  },
+  {
+    "strName": "TIsFitShivCR",
+    "strCondName": "",
+    "fChance": 1.0,
+    "fCount": 1.0,
+    "aReqs": [
+      "IsShivCR"
+    ],
+    "aForbids": [
+    ],
+    "aTriggers": [
+      "TIsFitContainerSolid"
+    ],
+    "bAND": true
+  }
+]
