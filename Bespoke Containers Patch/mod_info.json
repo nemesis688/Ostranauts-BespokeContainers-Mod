@@ -2,7 +2,7 @@
     {
         "strName": "Bespoke Containers Patch",
         "strAuthor": "Fohcs",
-        "strModURL": "https://git.soon-tm.info/warstalker/FFU-BR-Data/-/releases/REL-000",
+        "strModURL": "https://github.com/nemesis688/Ostranauts-BespokeContainers-Mod",
         "strGameVersion": "1.0.0.9",
         "strModVersion": "0.1",
         "strNotes": "Save patcher for Bespoke Containers mod. Use once when loading old save game with old weapons, then disable.",
