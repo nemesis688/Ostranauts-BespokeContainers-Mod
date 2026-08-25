@@ -1,0 +1,26 @@
+[
+    {
+        "strName": "Bespoke Containers Patch",
+        "strAuthor": "Fohcs",
+        "strModURL": "https://git.soon-tm.info/warstalker/FFU-BR-Data/-/releases/REL-000",
+        "strGameVersion": "1.0.0.9",
+        "strModVersion": "0.1",
+        "strNotes": "Save patcher for Bespoke Containers mod. Use once when loading old save game with old weapons, then disable.",
+        "requiredAPIs": ["FFU_BR_Core>=0.6"],
+        "requiredMods": ["Bespoke_Containers>=0.1"],
+        "changesMap": {
+            "ItmWeaponBaseballBat01": {"Sync_Conditions": ["IsBatCR"]},
+            "ItmWeaponBaseballBat02": {"Sync_Conditions": ["IsSluggerCR"]},
+            "ItmWeaponMachete01": {"Sync_Conditions": ["IsMachCR"]},
+            "ItmWeaponCutlass01": {"Sync_Conditions": ["IsCutlCR"]},
+            "ItmWeaponKatana01": {"Sync_Conditions": ["IsKataCR"]},
+            "ItmWeaponSpear01": {"Sync_Conditions": ["IsSpeaCR"]},
+            "ItmWeaponKnuckles01": {"Sync_Conditions": ["IsKnucCR"]},
+            "ItmWeaponNightstick01": {"Sync_Conditions": ["IsBClubCR"]},
+            "ItmWeaponNightstick02": {"Sync_Conditions": ["IsNStickCR"]},
+            "ItmWeaponShiv01": {"Sync_Conditions": ["IsShivCR"]},
+            "ItmWeaponKnife01": {"Sync_Conditions": ["IsTKnifeCR"]},
+            "ItmWeaponPocketKnife01": {"Sync_Conditions": ["IsPKnifeCR"]}
+        }
+    }
+]
